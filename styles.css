@@ -5,7 +5,7 @@
 .navbar-brand-short {
   font-family: 'Abel', sans-serif;
   font-size: 5rem;
-  margin-left: 10px;
+  /* margin-left: 2px; */
 }
 
 .navbar-brand {
@@ -90,6 +90,13 @@ width: 100%;
 
 .card-img-top {
   object-fit: cover;
+}
+
+.card-title{
+  text-align: center;
+}
+.card-text{
+  text-align: justify;
 }
 
 section.pricing {
@@ -201,4 +208,7 @@ section.pricing {
 }
 .back-1-text{
   color: white;
+}
+.image-wordings{
+  color: Black;
 }
