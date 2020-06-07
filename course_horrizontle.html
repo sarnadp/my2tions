@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="course.css">
+  <link rel="stylesheet" href="css/course.css">
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c3d6a706aa.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -26,8 +26,11 @@
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+<img src="images/logo.jpg" width="30" height="60" class="d-inline-block align-top"alt="" loading="lazy">
       <a class="navbar-brand-short" href="">DVT</a>
       <a class="navbar-brand" href="">Digi <br>Verve <br>Technologies</a>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,7 +45,7 @@
           <!-- <li class="nav-item dropdown">
             <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses -->
 
-            <!-- </a>
+          <!-- </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Academic Oriented</a>
               <a class="dropdown-item" href="#">Industry Connected</a>
@@ -79,7 +82,7 @@
 
       <div class="ban-1 col-lg-4 col-sm-12">
         <div>
-          <img class="image-banner" src="computer.jpg" alt="banner-image">
+          <img class="image-banner" src="images/computer.jpg" alt="banner-image">
         </div>
       </div>
       <div class="ban-2 col-lg-8 col-sm-12">
@@ -93,45 +96,52 @@
 
     <!-- #Cards -->
     <!-- Academic -->
-    <div class="card text-white bg-primary mb-3" style="max-width: 100%;">
-      <div class="row no-gutters">
-        <div class="col-md-2">
-          <img src="cps.jpg" class="card-img-top" alt="...">
-          <h5 class="card-title"><a href="#"></a>Academic Oriented <br><br>Course 01: <br>Cyber-Physical Systems: Modelling and Simulation <br>Duration (4 weeks) </h5>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <!-- <h5 class="card-title"><a href="#"></a>Course 01: <br>Cyber-Physical Systems: Modelling and Simulation <br>Duration (4 weeks) </h5> -->
-            <p class="card-text">About this Course
-              <br>Cyber-physical systems (CPS for short) combine digital and analog devices, interfaces, networks, computer systems, and the like, with the natural and man-made physical world. The inherent interconnected and heterogeneous combination
-              of behaviours in these systems makes their analysis and design an exciting and challenging task.
-              CPS: Modelling and Simulation provides you with an introduction to modelling and simulation of cyber-physical systems. The main focus is on models of physical process, finite state machines, computation, converters between physical and
-              cyber variables, and digital networks.
-              . <br><br>Syllabus:
-              <br>Week 1: Basic Modelling Concepts: Discrete-time and Continuous-Time Systems
-              <br>Week 2: Modelling Cyber Components: Finite State Machines, Computations, Algorithms and a First CPS Model
-              <br>Week 3: Modelling Interfaces for Cyber-Physical Systems: Conversion, Networks, and Complete CPS Models
-              <br>Week 4: Trajectories in CPS and Simulations: Time Domains, Executions, and Complete CPS Models
-            <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
-            <a href="contact.html" class="price-btn btn btn-block btn-primary text-uppercase">Register</a>
-            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    <section id="Academic_Course_01">
+      <div class="card text-white bg-primary mb-3" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-2">
+            <img src="images/cps.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title"><a href="#"></a>Academic Oriented <br><br>Course 01: <br>Cyber-Physical Systems: Modelling and Simulation <br>Duration (4 weeks) </h5>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <!-- <h5 class="card-title"><a href="#"></a>Course 01: <br>Cyber-Physical Systems: Modelling and Simulation <br>Duration (4 weeks) </h5> -->
+              <p class="card-text">About this Course
+                <br>Cyber-physical systems (CPS for short) combine digital and analog devices, interfaces, networks, computer systems, and the like, with the natural and man-made physical world. The inherent interconnected and heterogeneous
+                combination
+                of behaviours in these systems makes their analysis and design an exciting and challenging task.
+                CPS: Modelling and Simulation provides you with an introduction to modelling and simulation of cyber-physical systems. The main focus is on models of physical process, finite state machines, computation, converters between physical
+                and
+                cyber variables, and digital networks.
+                . <br><br>Syllabus:
+                <br>Week 1: Basic Modelling Concepts: Discrete-time and Continuous-Time Systems
+                <br>Week 2: Modelling Cyber Components: Finite State Machines, Computations, Algorithms and a First CPS Model
+                <br>Week 3: Modelling Interfaces for Cyber-Physical Systems: Conversion, Networks, and Complete CPS Models
+                <br>Week 4: Trajectories in CPS and Simulations: Time Domains, Executions, and Complete CPS Models
+              <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
+              <a href="contact.html" class="price-btn btn btn-block btn-primary text-uppercase">Register</a>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
 
+            </div>
+          </div>
+          <div class="faculty col-md-2">
+            <p class="faculty-card-text">Faculty <br> Mathew Chacko</p>
+            <img class="image-profile" src="images/mathew.jpg" alt="">
+            <p class="profile">Mr. MATHEW CHACKO <br>BE(Mech) M.Tech (Modelling & Simulation) PhD in Cyber Physical Systems (pursuing)
+              PGCBM from XLRI Jamshedpur
+            </p>
           </div>
         </div>
-        <div class="faculty col-md-2">
-          <p class="faculty-card-text">Faculty <br> Mathew Chacko</p>
-          <img class="image-profile" src="mathew.jpg" alt="">
-          <p class="profile">Mr. MATHEW CHACKO <br>BE(Mech) M.Tech (Modelling & Simulation) PhD in Cyber Physical Systems (pursuing)
-            PGCBM from XLRI Jamshedpur
-          </p>
-        </div>
       </div>
-    </div>
+    </section>
+
+<section id="Industry_Course_01">
+
 
     <div class="card text-white bg-success mb-3" style="max-width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-2">
-          <img src="accounting.jpeg" class="card-img-top" alt="...">
+          <img src="images/accounting.jpeg" class="card-img-top" alt="...">
           <h5 class="card-title"><a href="#"></a>Industry Connected <br><br>Course 01: <br>Management Accounting: Fundamentals</h5>
         </div>
         <div class="col-md-8">
@@ -151,25 +161,29 @@
               <br>Week 3: Accounting Policies, Creative accounting, Fund and Cash Flow Techniques
               <br>Week4: Cost and Management Accounting – Unit costing, Budgetary Controls, Cost Volume Profit Analysis
 
-              <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
+            <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
             <a href="contact.html" class="price-btn btn btn-block btn-success text-uppercase">Register</a>
             <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           </div>
         </div>
         <div class="faculty col-md-2">
           <p class="faculty-card-text">Faculty <br> Mathew Chacko</p>
-          <img class="image-profile" src="mathew.jpg" alt="">
+          <img class="image-profile" src="images/mathew.jpg" alt="">
           <p class="profile">Mr. MATHEW CHACKO <br>BE(Mech) M.Tech (Modelling & Simulation) PhD in Cyber Physical Systems (pursuing)
             PGCBM from XLRI Jamshedpur
           </p>
         </div>
       </div>
     </div>
+    </section>
+
+<section id="Personal_Course_01">
+
 
     <div class="card text-white bg-info mb-3" style="max-width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-2">
-          <img src="habits.jpg" class="card-img-top" alt="...">
+          <img src="images/habits.jpg" class="card-img-top" alt="...">
           <h5 class="card-title"><a href="#"></a>Personal Development <br><br>Course 01: <br>Leadership Skills & Habits of Successful People</h5>
         </div>
         <div class="col-md-8">
@@ -189,80 +203,31 @@
               <br>Week 3: Accounting Policies, Creative accounting, Fund and Cash Flow Techniques
               <br>Week4: Cost and Management Accounting – Unit costing, Budgetary Controls, Cost Volume Profit Analysis
 
-              <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
+            <p> <em>Note: People successfully completing the course and passing the exam are entitled to a “Certificate”</em></p>
             <a href="contact.html" class="price-btn btn btn-block btn-info text-uppercase">Register</a>
             <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           </div>
         </div>
         <div class="faculty col-md-2">
           <p class="faculty-card-text">Faculty <br><br>
-          <img class="image-profile" src="sarnad.jpg" alt="">
+            <img class="image-profile" src="images/sarnad.jpg" alt="">
           <p class="profile">Mr. PRAHLAD SARNAD <br>BE (Auto). <br>Certfied Six Sigma Black Belt, <br>Aerospace & IOT exp (20+ yrs.)
           </p>
         </div>
       </div>
     </div>
+    </section>
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-dark">
 
-      <div style="background-color: #6351ce;">
-        <div class="container">
 
-          <div class="row py-4 d-flex align-items-center">
-
-            <!-- Grid column -->
-            <!-- <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Get connected with us on social networks!</h6>
-          </div> -->
-            <!-- Grid column -->
-
-
-            <div class="col-md-12 col-lg-12 text-center text-md-center">
-
-              <!-- Facebook -->
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f white-text mr-4"> </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fab fa-twitter white-text mr-4"> </i>
-              </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i class="fab fa-google-plus-g white-text mr-4"> </i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i class="fab fa-linkedin-in white-text mr-4"> </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram white-text"> </i>
-              </a>
-
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row-->
-
-        </div>
-      </div>
 
       <!-- Footer Links -->
       <div class="container text-center text-md-left mt-5">
 
         <div class="row mt-3">
 
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-            <!-- Content -->
-            <h6 class="navbar-brand">Digi Verve Technologies</h6>
-            <!-- <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"> -->
-            <p>With digital content and transformation being the rule of the day, we at DigiVerve, an EdTech company, bring integrated solutions to empower and enhance higher education institutions..</p>
-
-
-          </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
@@ -272,7 +237,7 @@
             <h6 class="text-uppercase font-weight-bold">Products</h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a href="#!">P4DT</a>
+              <a href="https://digivervetechnologies.com">P4DT</a>
             </p>
             <p>
               <a href="#!">My2tions</a>
@@ -294,22 +259,22 @@
             <h6 class="text-uppercase font-weight-bold">Navigate</h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a href="#!">About</a>
+              <a href="https://digivervetechnologies.com/about-company.html">About</a>
             </p>
             <p>
-              <a href="#!">Courses</a>
+              <a href="course_horrizontle.html">Courses</a>
             </p>
-            <!-- <p>
-              <a href="#!">Schedule</a>
-            </p> -->
+            <p>
+              <a href="https://digivervetechnologies.com/news.html">News</a>
+            </p>
             <!-- <p>
               <a href="#!">Events</a>
-            </p> -->
-            <p>
-              <a href="#">News</a>
             </p>
             <p>
-              <a href="#">Contact</a>
+              <a href="#">News</a>
+            </p> -->
+            <p>
+              <a href="contact.html">Contact</a>
             </p>
 
           </div>
@@ -330,20 +295,37 @@
             <p>
               <i class="fas fa-mobile mr-3"></i> + 91 9731793377</p>
 
+
+
           </div>
           <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase  font-weight-bold">Subscribe</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>The latest DigiVerve news, articles, and resources, sent straight to your inbox every month.</p>
+
+            <form class="input-group">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+            </form>
+            <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Subscribe</button> -->
+            <a class="btn btn-primary btn-lg btn-block" href="mailto:info@digiverve.in">Submit</a>
+          </div>
+
+
+          <!-- Grid row -->
 
         </div>
-        <!-- Grid row -->
+        <!-- Footer Links -->
 
-      </div>
-      <!-- Footer Links -->
-
-      <!-- Copyright -->
-      <!-- <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://digivervetechnologies.com/"> Digiverve.in</a>
-    </div> -->
-      <!-- Copyright -->
+        <!-- Copyright -->
+        <!-- <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://digivervetechnologies.com/"> Digiverve.in</a>
+        </div> -->
+        <!-- Copyright -->
 
     </footer>
     <!-- Footer -->
@@ -359,25 +341,6 @@
           <!--Grid column-->
           <div class="col-md-6 mb-4">
 
-            <!-- Form -->
-            <form class="form-inline">
-              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </form>
-            <!-- Form -->
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <form class="input-group">
-              <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
-              </div>
-            </form>
 
           </div>
           <!--Grid column-->
@@ -388,15 +351,58 @@
       </div>
       <!-- Footer Elements -->
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://digivervetechnologies.com/"> Digiverve.in</a>
-      </div>
-      <!-- Copyright -->
+
 
     </footer>
     <!-- Footer -->
+    <div style="background-color: #6351ce;">
+      <div class="container">
 
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <!-- <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div> -->
+          <!-- Grid column -->
+
+
+          <div class="col-md-12 col-lg-12 text-center text-md-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://digivervetechnologies.com/"> Digiverve.in</a>
+    </div>
+    <!-- Copyright -->
 </body>
 
 </html>
