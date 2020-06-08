@@ -90,6 +90,7 @@ width: 100%;
 
 .card-img-top {
   object-fit: cover;
+  border-radius: 100%;
 }
 
 section.pricing {
