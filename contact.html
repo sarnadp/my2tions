@@ -1,6 +1,4 @@
-
-
-<html lang="en" dir="ltr">
+lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
@@ -23,7 +21,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
-<img src="logo.jpg" width="30" height="60" class="d-inline-block align-top"alt="" loading="lazy">
+<img src="images/logo.jpg" width="30" height="60" class="d-inline-block align-top"alt="" loading="lazy">
       <a class="navbar-brand-short" href="">DVT</a>
       <a class="navbar-brand" href="">Digi <br>Verve <br>Technologies</a>
       </a>
@@ -78,7 +76,7 @@
 
       <div class="ban-1 col-lg-4 col-sm-12">
         <div>
-          <img class="image-banner" src="computer.jpg" alt="banner-image">
+          <img class="image-banner" src="images/computer.jpg" alt="banner-image">
         </div>
       </div>
       <div class="ban-2 col-lg-8 col-sm-12">
@@ -103,21 +101,21 @@
                         <div class="card-body">
                             <img src="http://www.ansonika.com/mavia/img/registration_bg.svg" style="width:30%">
                             <h2 class="py-3">Registration</h2>
-                            <p>Please enter the required details to get connected.
-
-    </p>
+                            <p>Please enter the required details to get connected.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 py-5 border">
                     <h4 class="pb-4">Please fill with your details</h4>
-                    <form>
+                    <form  action="mailto:info@digiverve.in" method="post" enctype="text/plain">
+
+
                         <div class="form-row">
                             <div class="form-group col-md-6">
                               <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
                             </div>
                             <div class="form-group col-md-6">
-                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" type="text" name="email">
                             </div>
                           </div>
                         <div class="form-row">
@@ -126,7 +124,7 @@
                             </div>
                             <div class="form-group col-md-6">
 
-                                      <select id="inputState" class="form-control">
+                                      <select id="inputState" class="form-control" name="Course">
                                         <option selected>Choose ...</option>
                                         <option> Academic Oriented Course 01:Cyber-Physical Systems: Modelling and Simulation</option>
                                         <option> Academic Oriented Course 02:Machine Learning</option>
@@ -137,11 +135,11 @@
                                         <option> Feedback</option>
                                       </select>
                             </div>
-                          <div class="form-group col-md-6">
+                            <div class="form-group col-md-6">
 
-                                      <select id="inputStateCollege" class="form-control">
-<option> College </option>
-<option> ACE COLLEGE OF ENGINEERING </option>
+                                      <select id="inputStateCollege" class="form-control" name="College">
+                                        <option> College </option>
+                                        <option> ACE COLLEGE OF ENGINEERING </option>
 <option> ADI SHANKARA INSTITUTE OF ENGINEERING AND TECHNOLOGY </option>
 <option> AHALIA SCHOOL OF ENGINEERING & TECHNOLOGY </option>
 <option> AL AZHAR COLLEGE OF ENGINEERING AND TECHNOLOGY </option>
@@ -384,7 +382,11 @@
 <option>  YOUNUS COLLEGE OF ENGINEERING </option>
 <option> YOUNUS COLLEGE OF ENGINEERING AND TECHNOLOGY </option>
 <option> YOUNUS INSTITUTE OF TECHNOLOGY </option>
-                                        </select>
+
+
+
+                                      </select>
+                            </div>
                             <div class="form-group col-md-12">
                                       <textarea id="comment" name="comment" cols="40" rows="5" class="form-control"></textarea>
                             </div>
@@ -404,13 +406,33 @@
                         </div>
 
                         <div class="form-row">
-                            <a class="btn btn-danger" href="mailto:info@digiverve.in">Submit</a>
+                          <input class="btn btn-danger" type="submit" name="">
+                            <!-- <a class="btn btn-danger" href="mailto:info@digiverve.in">Submit</a> -->
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+<form action="https://www.example.com/payment/success/" method="POST">
+  <script    src="https://checkout.razorpay.com/v1/checkout.js"
+  data-key="rzp_test_LX9fsSubAvp5ln"
+
+  data-amount="50000"
+
+  data-currency="INR"
+
+
+
+  data-buttontext="Pay"
+  data-name="DIGI VERVE"
+  data-description="MY2TIONS"
+  data-image="https://sarnadp.github.io/my2tions/logo.jpg"
+  data-prefill.name="Gaurav Kumar"
+  data-prefill.email="gaurav.kumar@example.com"
+  data-theme.color="#F37254"></script><input type="hidden" custom="Hidden Element" name="hidden"></form>
+
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-dark">
 
