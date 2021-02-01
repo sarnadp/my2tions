@@ -1,0 +1,135 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>payment</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="course.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c3d6a706aa.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <section id="title" style="background-color: #fff;">
+
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My2tions</a>
+      <img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+  DigiVerve
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://digivervetechnologies.com/about-company.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="academic.html">Academic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="industrial.html">Industrial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="personality.html">Personality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://digivervetechnologies.com/news.html">News</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+
+      <div class="ban-1 col-lg-4 col-sm-12">
+        <div>
+          <img class="image-banner" src="computer.jpg" alt="banner-image">
+        </div>
+      </div>
+      <div class="ban-2 col-lg-8 col-sm-12">
+        <div class="my2tion-block">
+          <marquee class="my2tion-tag" behavior="scroll" direction="left">New batch for NC Programing Level I starts from 26 Sep</marquee>
+
+          <p class="my2tion" style="font-size: 5rem;">My2tions</p>
+          <p class="my2tion-tag" >a virtual institute....</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--- Include the above in your HEAD tag ---------->
+
+    <section class="testimonial py-5" id="testimonial">
+      <div class="container">
+        <div class="row ">
+          <div class="col-sm  bg-secondary text-white text-center ">
+            <div class=" ">
+              <div class="card-body">
+                <i class="fab fa-amazon-pay fa-4x" ></i>
+                <!-- <img src="http://www.ansonika.com/mavia/img/registration_bg.svg" style="width:15%"> -->
+                <!-- <h2 class="py-3">Payment</h2> -->
+                <p>Please click below to make the payment</p>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GVz9Fw64kwyTIr" async> </script> </form>
+
+              </div>
+            </div>
+          </div>
+
+  </section>
+
+  <!-- </script> -->
+  <div class="row" col-md-12>
+
+  </div>
+
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://digivervetechnologies.com/"> Digiverve.in</a>
+  </div>
+  <!-- Copyright -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script>
+    var options = {
+      "key": "rzp_live_UMfYVlDXUQ7kNB",
+      "amount": "49900",
+      "name": "DIGI VERVE",
+      "description": "MY2TION",
+      "image": "https://sarnadp.github.io/my2tions/logo.jpg",
+      "handler": function(response) {
+        alert(response.razorpay_payment_id);
+      },
+      "prefill": {
+        "name": "FirstName LastName",
+        "email": "name@email.com"
+      },
+      "notes": {
+        "address": "Hello World"
+      },
+      "theme": {
+        "color": "#F37254"
+      }
+    };
+    var rzp1 = new Razorpay(options);
+
+    document.getElementById('rzp-button1').onclick = function(e) {
+      rzp1.open();
+      e.preventDefault();
+    }
+  </script>
+</body>
