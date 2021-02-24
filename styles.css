@@ -213,6 +213,12 @@ section.pricing {
   background-color: #f0f0f0;
   padding-top: 1%;
 }
+.back-3{
+  background-color: #000000;
+  padding-left: 3%;
+  padding-top: 1%;
+  text-align: center;
+}
 .back-1-text{
   color: black;
   font-size: 3rem;
@@ -538,6 +544,6 @@ text-align: justify;
       font-family: 'Abel', sans-serif;
       font-size: 4rem;
     }
-.terms{
+/* .terms{
   padding-left: 45%;
-}
+} */
