@@ -547,3 +547,7 @@ text-align: justify;
 /* .terms{
   padding-left: 45%;
 } */
+.sup{
+vertical-align: super;
+  font-size: smaller;
+}
