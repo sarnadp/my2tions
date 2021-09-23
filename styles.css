@@ -562,7 +562,7 @@ vertical-align: super;
     line-height: 95px;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 40px;
+    margin: 0 0 10px;
     padding-bottom: 20px;
     text-transform: uppercase;
 }
@@ -576,7 +576,7 @@ ul{
 }
 .padding-lg {
 	display: block;
-	padding-top: 60px;
+	padding-top: 10px;
 	padding-bottom: 60px;
 }
 .practice-area.padding-lg {
@@ -618,7 +618,7 @@ ul{
    float:left;
    width:100%;
    background:#fff;
-   padding:0px 0px;
+   padding:30px 20px;
    text-align:center;
    border:2px solid #d5d5d5;
    margin: 0 0 28px;
